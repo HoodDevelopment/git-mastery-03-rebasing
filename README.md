@@ -62,7 +62,7 @@ chmod +x build-history.sh
 ```
 
 This script creates:
-- **~50 commits** from 4 fictional developers
+- **~20 commits** from 4 fictional developers
 - **Multiple feature branches** ready for rebasing
 - **Realistic project history** with various scenarios
 
