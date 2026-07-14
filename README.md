@@ -68,6 +68,8 @@ This script creates:
 
 **Takes ~15 seconds to complete.**
 
+**Need to start over?** Just run `./build-history.sh` again and type `y` to reset everything!
+
 ### 2. Verify Repository Setup
 
 ```bash
@@ -158,14 +160,16 @@ feature:            D' -- E'
 
 Want to start over or practice again?
 
-```bash
-# Option 1: Delete and re-run script
-rm -rf src/
-git checkout master
-git branch -D feature-* (delete feature branches)
-./build-history.sh
+**Easiest way:** Just re-run the setup script!
 
-# Option 2: Re-clone
+```bash
+./build-history.sh
+# Type 'y' when prompted to delete and rebuild
+```
+
+**Alternative:** Re-clone from scratch
+
+```bash
 cd ..
 rm -rf git-mastery-03-rebasing
 git clone https://github.com/TheCodeGarage/git-mastery-03-rebasing
